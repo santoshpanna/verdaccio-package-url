@@ -6,11 +6,16 @@
   "types": "./dist/index.d.ts",
   "author": "空巷一人",
   "license": "MIT",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "rimraf ./dist && tsc"
+  },
   "devDependencies": {
     "@types/express": "^4.17.17",
     "@types/node": "^14.18.59",
     "@verdaccio/auth": "^6.0.0-6-next.55",
     "@verdaccio/core": "^6.0.0-6-next.76",
+    "rimraf": "^5.0.1",
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
