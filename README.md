@@ -1,5 +1,5 @@
 ```sh
-npm install verdaccio-npm-package-url
+npm install verdaccio-package-url
 ```
 
 ```yaml

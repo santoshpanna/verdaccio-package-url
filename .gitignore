@@ -22,4 +22,4 @@ pnpm-debug.log*
 *.sln
 *.sw?
 package-lock.json
-verdaccio-npm-package-url-*.tgz
+verdaccio-package-url-*.tgz
