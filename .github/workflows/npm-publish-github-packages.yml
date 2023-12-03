@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Exit if not on main branch
-        if: endsWith(github.ref, 'main') == false
+        if: endsWith(github.head_ref, 'main') == false
         run: exit -1
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
