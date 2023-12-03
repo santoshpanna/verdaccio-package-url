@@ -34,7 +34,7 @@
     "verdaccio"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmjs.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": "https://github.com/santoshpanna/verdaccio-package-url.git",
   "homepage": "https://github.com/santoshpanna/verdaccio-package-url#readme",
