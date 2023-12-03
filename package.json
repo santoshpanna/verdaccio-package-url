@@ -1,5 +1,5 @@
 {
-  "name": "verdaccio-package-url",
+  "name": "@santoshpanna/verdaccio-package-url",
   "version": "1.0.0",
   "description": "verdaccio-package-url",
   "main": "dist/index.js",
